@@ -65,7 +65,7 @@ PixelCNN에서 쓰던 gated activation 활용. W는 conv. 이게 ReLU 보다 더
 
 ### 2.4. Residual And Skip Connections.
 
-![figure4](./rsrc/fig4.png)
+![figure4](./rsrc/wavenet_fig4.png)
 
 각 레이어간 전달은 residual connection, network output은 skip connection 해서 1x1 conv + ReLU + Softmax 로 연결
 
