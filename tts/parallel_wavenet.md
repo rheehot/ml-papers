@@ -10,7 +10,7 @@ Aaron van den Oord, Yazhe Li, Igor Babuschkin, Karen Simonyan, Oriol Vinyals, Ko
 - variation : IAF information distillation
 - benefits : inference 속도 향상
 - weakness : 복잡한 loss framework
-- future works :
+- future works : loss 간략화
 
 ## Abstract
 
