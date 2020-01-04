@@ -4,13 +4,13 @@ Tim Slimans, Andrej Karpathy, Xi Chen, Diederik P. Kingma
 
 ## Summary
 
-- one-line summary
-- topic words : 
-- base model : 
-- variation : 
-- benefits :
-- weakness :
-- future works :
+- PixelCNN에 대한 실험적인 개선
+- topic words : Discretized logistic mixture, short-cut, dropout, small receptive larger capacity.
+- base model : PixelCNN
+- variation : Discretized logistic mixture loss 활용, short-cut, dropout, NIN 추가.
+- benefits : 더 잘나옴.
+- weakness : - 
+- future works : -
 
 ## Abstract
 
