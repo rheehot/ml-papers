@@ -12,11 +12,11 @@ author1, author2, authors
 - weakness :
 - future works :
 
-## Abstraction
+## Abstract
 
 ## 1. Introduction
 
-## 2. Relational works
+## 2. Related works
 
 ## 3. Model description
 
