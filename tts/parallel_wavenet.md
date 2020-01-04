@@ -4,12 +4,12 @@ Aaron van den Oord, Yazhe Li, Igor Babuschkin, Karen Simonyan, Oriol Vinyals, Ko
 
 ## Summary
 
-- one-line summary
-- topic words : 
-- base model : 
-- variation : 
-- benefits :
-- weakness :
+- nn distillation 으로 pretrained wavenet을 IAF 형태의 wavenet에 정보 전달, KL Loss 로는 부족해서 perceptual loss를 추가로 학습해야 했음.
+- topic words : distillation, IAF, cross entropy, KL, power, perceptual, constrative loss.
+- base model : wavenet
+- variation : IAF information distillation
+- benefits : inference 속도 향상
+- weakness : 복잡한 loss framework
 - future works :
 
 ## Abstract
