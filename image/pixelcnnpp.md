@@ -45,9 +45,54 @@ $\sigma$는 sigmoid, edge case 0은 $-\infty$, 255은 $\infty$로 연산됨. 이
 
 ### 2.2. Conditioning on whole pixels
 
+기존 pixelcnn은 3개 subpixel에 대해서도 factorize. 근데 이게 모델을 사실 어렵게 하는 일이었음. 새 모델에서는 feature maps를 R/G/B scale의 정보 공유 여부에 따라 3개 그룹으로 나눔. 먼저 red를 context에서 뽑고, 이를 기반으로 green과 blue를 연쇄적으로 뽑는 방식. 
+
+$p(r_{i, j},g_{i, j},b_{i, j}|C_{i, j})=P(r_{i, j}|\mu_r(C_{i, j}),s_r(C_{i, j}))\times P(g_{i, j}|\mu_g(C_{i, j}), s_g(C_{i, j})) \times P(b_{i, j}|\mu_b(C_{i, j},r_{i, j},g_{i, j}),s_b(C_{i, j}))\\
+\mu_g(C_{i, j},r_{i, j})=\mu_g(C_{i, j})+\alpha (C_{i, j})r_{i, j}\\
+\mu_b(C_{i, j},r_{i, j},g_{i, j})=\mu_b(C_{i, j})+\beta(C_{i, j})r_{i, j}+\gamma (C_{i, j})b_{i, j}$
+
+### 2.3. Downsampling versus dilated convolution
+
+명시적으로 이미지 quality를 위해 long-term dep를 만들어주기 위해 dilated conv를 활용. 이 때 dilation으로 인한 정보 손실을 방지하기 위해 additional short-cut connections를 제공.
+
+### 2.4. Adding short-cut connections
+
+U-net처럼 동일 resolution feature map에 대해 추가 residual connection 제공
+
+### 2.5. Regularization using dropout
+
+overfitting 된 모델이 생성한 이미지가 perceptuality가 떨어지는걸 실험적으로 관측, regularizing을 위해 residual path 에 std bin dropout을 추가. 
+
 ## 3. Experiments
 
+### 3.3. Examining Network depth and field of view size
+
+명시적인 receptive field가 작았을 때 더 좋은 성능을 CIFAR-10에서 보였었음. receptive field를 줄이면서 network capacity (expressiveness)를 늘이기 위해서 두가지 방법을 제안함. 
+1. NIN(Network in network): gated resnset block with 1x1 conv를 추가. 
+2. autoregressive channel: 1x1 conv gated resnetblock를 통해 channels간 skip connection 추가. 
+
+
+### 3.4. Ablation experiments
+
+**3.4.1. Softmax likelihood instead of discretized logistic mixture**
+
+softmax likelihood가 더 flexible하긴 했음. 하지만 학습 속도랑 inference 속도가 느리긴 하더라. 
+
+**3.4.2. Continuous mixture likelihood instead of discretization**
+
+입력 이미지를 dequantize 하고 uniform noise 를 첨가함으로써 continuous로 모델링 할 수도 있음. 그럼 결과적으로 vae 프레임워크를 따르는데, dequantized z가 latent, 모델에 의해 capture된 prior를 따를 것. entropy는 uniform dist가 0이니까 dequantized pixel의 log likelihood만 남음. 결과 2.92 비트 per dim으로 굉장히 잘 학습함. 
+
+**3.4.3. No short-cut connection**
+
+학습의 하한을 낮춤 
+
+**3.4.4. No dropout**
+
+test set에 대한 loglikelihood를 굉ㅈ아히 많이 낮춤. 
+
 ## 4. Conclusion
+
+잘나왔음 끝~
 
 ## 5. Citation
 
