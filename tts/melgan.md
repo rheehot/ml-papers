@@ -4,13 +4,13 @@ Kundan Kumar, Rithesh Kumar, Thibault de Boissiere, Lucas Gestin, Wei Zhen Teoh,
 
 ## Summary
 
-- one-line summary
-- topic words : 
-- base model : 
-- variation : 
-- benefits :
-- weakness :
-- future works :
+- 굉장히 많은 실험으로 구축한 GAN을 활용한 보코더.
+- topic words : dilated conv stack, weight norm, window-based discriminator loss, feature matching loss.
+- base model : - 
+- variation : -
+- benefits : fully-convolutional, non-autoregressive, fast train, fast inference.
+- weakness : input, output vector의 크기 제한.
+- future works : 길이 제한 해소, unconditional synthesis 학습.
 
 ## Abstract
 
