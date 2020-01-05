@@ -68,7 +68,7 @@ $L_D(q, D) = \mathbb E_{x \sim p_{data}}[(1 - D(x))^2] + \mathbb E_{\hat x \sim 
 
 ## 6. Conclusion
 
-
+WaveNet-based PWG의 학습 과정에 PDD + GAN framework를 이용함. 그 결과 더 좋은 음성을 얻을 수 있었음. 
 
 ## 7. Acknowledgements
 
