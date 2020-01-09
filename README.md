@@ -9,6 +9,7 @@ Machine learning papers
 4. [Probability Density Distillation with Generative Adversarial Networks for High-Quality Parallel Waveform Generation](./tts/probability_density_distillation_with_generative_adversarial_networks_for_high_quality_parallel_waveform_generation.md)
 5. [WaveGAN](./tts/wavegan.md): Adversarial Audio Synthesis
 6. [LPCNet](./tts/lpcnet.md): improving neural speech synthesis through linear prediction.
+7. [Parallel WaveGAN](./tts/parallel_wavegan.md): A Fast Waveform Generation Model Based on Generative Adversarial Networks with Multi-Resolution Spectrogram.
 
 ## Image
 
