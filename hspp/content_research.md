@@ -6,7 +6,7 @@ hspp 관련 논문 정리
 
 ### Abstract
 
-HSPP가 목표, 지원하는 기능, 장점 요약
+HS가 지금 위치하고 있는 RL 분야에서의 challenge를 소개. 이 환경으로 hspp를 제안했고, 이에 따른 HSPP의 목표, 지원하는 기능, 장점 요약.
 
 ### 1. Introduction
 
@@ -72,14 +72,30 @@ ELF는 research-oriented platform for concurrent game simulation이고, flexible
 
 이걸 토대로 더 많은 RTS 관련 RL 연구가 가능할 것.
 
-## 2. STARDATA: A Starcraft AI Research Dataset
+## 2. StartCraft II: A New Challenge for Reinforcement Learning
 
-## 3. The StarCraft Multi-Agent Challenge
+Oriol Vinyals et al., 2017.
 
-## 4. StartCraft II: A New Challenge for Reinforcement Learning
+### Abstract
 
-## 5. Helping AI to Play hearthstone:: AAIA' 17 Data Mining Challenge
+여기너 SC2LE (StarCraft II Learning Environment)를 소개. 이 분야는 rl의 새로운 도전과제임. multi-player, multi-agent problem, imperfect information, large action space, large state space, delayed credit 등. 스타2의 domain knowledge를 소개하고, python-based interface를 제공함. main game 뿐만 아니라, 스타2 의 또 다른 요소에 집중 할 수 있는 mini-game도 제공. 그리고 이에 따른 rl baseline을 제공. 물론 좋은 성능을 내지는 못함. sc2le가 이제 이 분야의 새로운 발판으로써 작용할 것.
 
-## 6. Introducing the Hearthstone-AI Competition
+### 1. Introduction
 
-## 7. The Many AI Challenges of Hearthstone
+
+
+### 2. Related Work
+
+### 3. The SC2LE environment
+
+### 4. Reinforcement Learning: Baseline Agents
+
+### 5. Supervised Learning from Replays
+
+### 6. Conclusions & Future Work
+
+## 3. The playStation Reinforcement Learning Environment
+
+## 4. OpenSpiel: A Framework for Reinforcement Learning in Games
+
+## 5. The Many AI Challenges of Hearthstone
