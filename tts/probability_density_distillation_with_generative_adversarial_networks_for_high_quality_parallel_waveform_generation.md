@@ -4,13 +4,13 @@ Ryuichi Yamamoto, Eunwoo Song, Jae-Min Kim
 
 ## Summary
 
-- one-line summary
-- topic words : 
-- base model : 
-- variation : 
-- benefits :
-- weakness :
-- future works :
+- PWG 에서 PDD + Auxiliary loss를 통해 성공적으로 학습한 parallel wavent에 GAN framework 적용
+- topic words : PWG, PDD, GAN, Aux loss
+- base model : Parallel WaveNet
+- variation : GAN loss 추가, STFT 기반 aux loss 추가
+- benefits : 보다 natural한 결과 산출
+- weakness : - 
+- future works : - 
 
 ## Abstract
 
