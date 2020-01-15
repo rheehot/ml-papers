@@ -10,6 +10,21 @@ Machine learning papers
 5. [WaveGAN](./tts/wavegan.md): Adversarial Audio Synthesis
 6. [LPCNet](./tts/lpcnet.md): improving neural speech synthesis through linear prediction.
 7. [Parallel WaveGAN](./tts/parallel_wavegan.md): A Fast Waveform Generation Model Based on Generative Adversarial Networks with Multi-Resolution Spectrogram.
+8. [GELP](./tts/gelp.md): GAN-Excited Linear Prediction for Speech Synthesis from Mel-Spectrogram.
+
+### Read, but not summarized
+1. highway networks
+2. improved variational inference with inverse autoregressive flow
+3. tacotron
+4. excitenet
+5. hierarchical generative modeling for controllable speech synthesis
+6. forward attention in sequence-to-sequence acoustic modeling for speach synthesis
+7. wavernn: efficient neural audio synthesis
+8. semi-supervised generative modeling for controllable speech synthesis
+9. waveflow
+10. waveglow
+11. tacotron2: natural tts synthesis by conditioning wavenet on mel spectrogram predictions
+12. learning to speak fluently in a foreign language multilingual speech synthesis
 
 ## Image
 
