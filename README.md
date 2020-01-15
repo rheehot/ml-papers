@@ -14,3 +14,7 @@ Machine learning papers
 ## Image
 
 1. [PixelCNN++](./image/pixelcnnpp.md): Improving the PixelCNN with Discretized Logistic Mixture Likelihood and Other Modifications.
+
+## Generatlization
+
+1. [On The Relationship Between Self-Attention And Convolutional Layers](./generalization/on_the_relationship_between_self_attention_and_convolutional_layers.md)
