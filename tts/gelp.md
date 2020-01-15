@@ -4,13 +4,13 @@ Lauri Juvela, Bajibabu Bollepalli, Junichi Yamagishi, Paavo Alku.
 
 ## Summary
 
-- one-line summary
-- topic words : 
-- base model : 
-- variation : 
-- benefits :
-- weakness :
-- future works :
+- LP에 Excitation을 Mel based GAN으로 학습.
+- topic words : LP, GAN, STFT loss, gradient penalty.
+- base model : WaveNet
+- variation : LP based, excitation inference, stft loss, gradient penalty, wgan.
+- benefits : parallel 하게 single-stage 학습하여 속도도 잘 나옴.
+- weakness : - 
+- future works : - 
 
 ## Abstract
 
