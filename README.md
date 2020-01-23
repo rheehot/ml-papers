@@ -33,3 +33,7 @@ Machine learning papers
 ## Generatlization
 
 1. [On The Relationship Between Self-Attention And Convolutional Layers](./generalization/on_the_relationship_between_self_attention_and_convolutional_layers.md)
+
+## DeepFake
+
+1. [Neural Voice Puppetry](./deepfake/neural_voice_puppetry.md): Audio-driven Facial Reenactment
