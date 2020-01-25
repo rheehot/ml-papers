@@ -41,3 +41,4 @@ Machine learning papers
 ## RL
 
 1. [ELF](./rl/elf.md): An Extensive, Lightweight and Flexible Research Platform for Real-time Strategy Games
+2. [StartCraft II](./rl/starcraft2.md): A New Challenge for Reinforcement Learning
