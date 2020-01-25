@@ -30,10 +30,14 @@ Machine learning papers
 
 1. [PixelCNN++](./image/pixelcnnpp.md): Improving the PixelCNN with Discretized Logistic Mixture Likelihood and Other Modifications.
 
-## Generatlization
+## Generalization
 
 1. [On The Relationship Between Self-Attention And Convolutional Layers](./generalization/on_the_relationship_between_self_attention_and_convolutional_layers.md)
 
 ## DeepFake
 
 1. [Neural Voice Puppetry](./deepfake/neural_voice_puppetry.md): Audio-driven Facial Reenactment
+
+## RL
+
+1. [ELF](./hspp/elf.md): An Extensive, Lightweight and Flexible Research Platform for Real-time Strategy Games
