@@ -40,4 +40,4 @@ Machine learning papers
 
 ## RL
 
-1. [ELF](./hspp/elf.md): An Extensive, Lightweight and Flexible Research Platform for Real-time Strategy Games
+1. [ELF](./rl/elf.md): An Extensive, Lightweight and Flexible Research Platform for Real-time Strategy Games
