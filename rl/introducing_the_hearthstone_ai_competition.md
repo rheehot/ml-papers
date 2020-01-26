@@ -4,13 +4,13 @@ Alexander Dockhorn, Sanaz Mostaghim.
 
 ## Summary
 
-- one-line summary
-- topic words : 
-- base model : 
-- variation : 
-- benefits :
-- weakness :
-- future works :
+- 하스스톤 대회 소개
+- topic words : POState, complexity, randomness, meta-game
+- base model : -
+- variation : -
+- benefits : -
+- weakness : -
+- future works : 다른 여러 대회를 통해 AI 발전을 도모하자
 
 ## Abstract
 
