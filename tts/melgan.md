@@ -18,7 +18,7 @@ GAN을 통해서 high quality coherent waveforms를 간단한 training framework
 
 ## 1. Introduction
 
-raw audio를 모델링하는 것이 어려운 이유는 1초에 16kHz 샘플을 뽑는만큼 temporal resolution이 높은 편. 또한 short-term, long-term 등 서로 달느 timescale에서 structure dep이 존재함. 그래서 더 쉽게 연산하려고 lower-resolution으로 줄여서 연산한거. 이게 mel 같은거. 이건 inversion을 할 수 있을만큼 충분한 정보를 담고 있는 repr이어야 함. 
+raw audio를 모델링하는 것이 어려운 이유는 1초에 16kHz 샘플을 뽑는만큼 temporal resolution이 높은 편. 또한 short-term, long-term 등 서로 다른 timescale에서 structure dep이 존재함. 그래서 더 쉽게 연산하려고 lower-resolution으로 줄여서 연산한거. 이게 mel 같은거. 이건 inversion을 할 수 있을만큼 충분한 정보를 담고 있는 repr이어야 함. 
 
 주로 두가지 단계로 모델링이 들어가는데 text2mel, mel2audio 이런 느낌. 이 때 mel 대신에 bark-cepstrum 같은 다른 intermediate를 쓰기도 함. 
 
