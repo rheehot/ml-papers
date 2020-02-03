@@ -7,7 +7,7 @@ Min-Jae Hwang, Eunwoo Song, Ryuichi Yamamoto, Frank Soong and Hong-Goo Kang.
 - lpcnet excitation을 gmm으로 두고, 학습을 원본 시그널과의 nll로 함.
 - topic words : lpcnet, mdn, stft loss, dist sharpening
 - base model : lpcnet
-- variation : 마지막 출력단을 mdn, 학습 과정에서 pred 고려
+- variation : 마지막 출력단을 mdn, 학습 과정에서 pred 고려, mu-law 제거.
 - benefits : 퀄리티 향상
 - weakness : -
 - future works : -
