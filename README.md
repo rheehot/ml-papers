@@ -11,6 +11,7 @@ Machine learning papers
 6. [LPCNet](./tts/lpcnet.md): improving neural speech synthesis through linear prediction.
 7. [Parallel WaveGAN](./tts/parallel_wavegan.md): A Fast Waveform Generation Model Based on Generative Adversarial Networks with Multi-Resolution Spectrogram.
 8. [GELP](./tts/gelp.md): GAN-Excited Linear Prediction for Speech Synthesis from Mel-Spectrogram.
+9. [SqueezeWave](./tts/squeezewave.md): Extremely Lightweight Vocoders for On-device Speech Synthesis.
 
 ### Read, but not summarized
 1. highway networks
