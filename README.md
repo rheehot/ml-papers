@@ -13,20 +13,20 @@ Machine learning papers
 8. [GELP](./tts/gelp.md): GAN-Excited Linear Prediction for Speech Synthesis from Mel-Spectrogram.
 9. [SqueezeWave](./tts/squeezewave.md): Extremely Lightweight Vocoders for On-device Speech Synthesis.
 10. [iLPCNet](./tts/ilpcnet.md): Improving LPCNet-Based Text-to-Speech with Linear Prediction-Structured Mixture Density Network.
+11. [Hierarchical Generative Modeling for Controllable Speech Synthesis](./tts/hierarchical.md)
 
 ### Read, but not summarized
 1. highway networks
 2. improved variational inference with inverse autoregressive flow
 3. tacotron
 4. excitenet
-5. hierarchical generative modeling for controllable speech synthesis
-6. forward attention in sequence-to-sequence acoustic modeling for speach synthesis
-7. wavernn: efficient neural audio synthesis
-8. semi-supervised generative modeling for controllable speech synthesis
-9. waveflow
-10. waveglow
-11. tacotron2: natural tts synthesis by conditioning wavenet on mel spectrogram predictions
-12. learning to speak fluently in a foreign language multilingual speech synthesis
+5. forward attention in sequence-to-sequence acoustic modeling for speach synthesis
+6. wavernn: efficient neural audio synthesis
+7. semi-supervised generative modeling for controllable speech synthesis
+8. waveflow
+9.  waveglow
+10. tacotron2: natural tts synthesis by conditioning wavenet on mel spectrogram predictions
+11. learning to speak fluently in a foreign language multilingual speech synthesis
 
 ## Image
 
