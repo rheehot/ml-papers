@@ -4,13 +4,13 @@ Nikita Kitaev, Lukasz Kaiser, Anselm Levskaya.
 
 ## Summary
 
-- one-line summary
-- topic words : 
-- base model : 
-- variation : 
-- benefits :
-- weakness :
-- future works :
+- time, space complexity를 줄이기 위해 LSH attention과 RevNet을 차용.
+- topic words : locality sensitive hash, lsh attention, revnet, chunk
+- base model : transformer
+- variation : dot-prod -> lsh, revnet, chunking
+- benefits : time, space complexity를 줄이면서 성능 유지
+- weakness : -
+- future works : -
 
 ## Abstract
 
