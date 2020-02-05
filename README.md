@@ -14,6 +14,7 @@ Machine learning papers
 9. [SqueezeWave](./tts/squeezewave.md): Extremely Lightweight Vocoders for On-device Speech Synthesis.
 10. [iLPCNet](./tts/ilpcnet.md): Improving LPCNet-Based Text-to-Speech with Linear Prediction-Structured Mixture Density Network.
 11. [Hierarchical Generative Modeling for Controllable Speech Synthesis](./tts/hierarchical.md)
+12. [DDSP](./tts/ddsp.md): Differentiable digital signal processing
 
 ### Read, but not summarized
 1. highway networks
