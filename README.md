@@ -15,6 +15,7 @@ Machine learning papers
 10. [iLPCNet](./tts/ilpcnet.md): Improving LPCNet-Based Text-to-Speech with Linear Prediction-Structured Mixture Density Network.
 11. [Hierarchical Generative Modeling for Controllable Speech Synthesis](./tts/hierarchical.md)
 12. [DDSP](./tts/ddsp.md): Differentiable digital signal processing
+13. [ITFTE](./tts/itfte_dnn.md): Improved Time-Frequency Trajectory Excitation Vocoder for DNN-Based Speech Synthesis
 
 ### Read, but not summarized
 1. highway networks
